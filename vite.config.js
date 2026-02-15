@@ -7,12 +7,5 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()
-  ],
-  optimizeDeps: {
-    rolldownOptions: {
-      resolve: {
-        extensions: ['.js', '.jsx']
-      }
-    }
-  }
+  ]
 })
